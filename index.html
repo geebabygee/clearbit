@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ClearBit Demo</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container text-center">
+
+    <h1 class="m-5">ClearBit Demo</h1>
+
+    <form action="#" id="clearbitForm" class="m-5 w-50 m-auto">
+      <input type="text" placeholder="Stalk someone" id="clearbitEmail" class="form-control mb-3">
+      <input type="submit" id="clearbitSubmit" class="btn btn-danger form-control mb-5">
+    </form>
+
+
+    <table class="table ">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Bio</th>
+          <th scope="col">Location</th>
+        </tr>
+      <tbody>
+        <tr>
+          <td id="userName"></td>
+          <td id="userEmail"></td>
+          <td id="userBio"></td>
+          <td id="userLocation"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+    <script src="build/application.js"></script>
+  </body>
+  </html>
